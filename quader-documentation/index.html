@@ -1,0 +1,242 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Quader - Personal Portfolio Template Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+		
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+	
+	<!-- Syntax Highlighter -->
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Quader - Personal Portfolio Template  &rdquo;  Documentation by &ldquo;theme_ocean&rdquo; 
+			v 1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">Quader - Personal Portfolio Template </h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 02/07/2022<br>
+					By: theme_ocean<br>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing <strong>Quader</strong>. If you have any questions that are beyond the scope of this help file, please feel free contact via support center.</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#introduction">Introduction</a></li>
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScripts</a></li>
+			<li><a href="#fontssused">Fonts used</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+			<li><a href="#faq">Faq</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="introduction"><strong>A) Introduction</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Thank you so much for purchasing <strong>Quader - Personal Portfolio Template</strong>. Please feel free to contact us if you have question or problem about this template. We will do our best to provide you with the best possible assistance.</p>
+		
+		<h4>Template Features</h4>
+		<ul>
+			<li>HTML5 and CSS3 Validated</li>
+			<li>Based on Twitter Bootstrap v4.5.0</li>
+			<li>Responsive Template</li>
+			<li>Clean coding</li>
+			<li>FontAwesome icons</li>
+			<li>Contact Form</li>
+			<li>Css3 animation</li>
+			<li>Google Web Fonts (Montserrat and Poppins)</li>
+		</ul>
+		
+		<hr>
+		
+		<h3 id="htmlStructure"><strong>B) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		<h4>HTML Files</h4>		
+
+		<ul>
+			<li><em>index.html</em> - Home Page </li>
+			<li><em>about.html</em> - About Page </li>
+			<li><em>work.html</em> - Portfolio Page </li>
+			<li><em>contact.html</em> - Contact Page </li>
+			<li><em>blog.html</em> - Blog Page </li>
+			<li><em>blog_single.html</em> - Blog Single Page </li>
+		</ul>
+		
+		
+		<h4>General HTML structure</h4>
+		<p>This template structure based on Twitter Bootstrap 3.3.7 Here is the sample structure.</p>
+		
+<pre class="brush: html">
+<!-- Page Layout
+================================================== -->
+
+<!-- Header start -->
+<header id="home">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+			</div>
+		</div>
+	</div>
+</header>
+<!-- Header end -->
+
+</pre>
+
+
+		<hr>
+
+		<h3 id="cssFiles"><strong>C) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+		
+		<h4>Styles</h4>
+		
+<pre class="brush: html">
+ <!-- CSS
+  ================================================== -->
+		<!-- Latest Bootstrap min CSS -->
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800"> 
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap" rel="stylesheet">
+		<!-- Font Awesome CSS -->
+		<link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+		<!---meanmenu Css-->
+		<link rel="stylesheet" href="assets/css/meanmenu.css">				
+		<!-- themify-icons CSS -->
+		<link rel="stylesheet" href="assets/fonts/themify-icons.css">		
+		<!-- Style CSS -->
+		<link rel="stylesheet" href="assets/css/style.css">						
+		<link rel="stylesheet" href="assets/css/responsive.css">	
+
+</pre>
+
+		<p>All css files are separates for improving convenience to edit this template.</p>
+		
+		<p>Some of stylesheets contain <em>Table of content</em> for easy navigation, for instance <strong>style.css</strong>:</p>
+		
+<pre class="brush: css">
+
+
+/* Table of Content for landing
+==================================================
+    01. GENERAL STYLE (body, link color, section-title, preloader btn, overlay, section-padding etc)
+    02. START MENU STYLE
+    03. START HOMEPAGE CSS STYLE
+    04. START RESUME STYLE
+    05. START SERVICE STYLE
+    06. START PORTFOLIO DESIGN
+    07. START BLOG STYLE
+    08. START CONTACT STYLE
+*/
+</pre>
+
+		<hr>
+		
+		<h3 id="javascript"><strong>D) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This theme imports Javascript files.</p>
+		
+<pre class="brush: html">
+<!-- Javascript Files
+================================================== -->
+		
+
+		<!-- Latest jQuery -->
+			<script src="assets/js/jquery-1.12.4.min.js"></script>
+		<!-- Latest compiled and minified Bootstrap -->
+			<script src="assets/bootstrap/js/bootstrap.min.js"></script>			
+		<!-- JQuery Knob -->
+		<!--[if IE]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
+			<script src="assets/js/jquery.knob.js"></script>			
+		<!-- WayPoints JS -->
+			<script src="assets/js/waypoints.min.js"></script>	
+		<!-- countTo js -->
+			<script src="assets/js/jquery.inview.min.js"></script>	
+		<!-- meanmenu  -->
+			<script src="assets/js/jquery.meanmenu.js"></script>	
+		<!-- scripts js -->
+			<script src="assets/js/scripts.js"></script>
+</pre>
+
+	Here javascript are minified version. If you want to edit any javascript you should downlaod uncompressed version.
+	If you face any difficulites to find source then please knock me to via support center
+
+		<hr>
+		
+		
+		
+		<h3 id="fontssused"><strong>E) Fonts Used</strong> - <a href="#toc">top</a></h3>
+		<p>I have used Poppins and Roboto slab fonts in this template.</p>
+		
+		<ol>
+		<ol>
+			<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet"> 	
+			<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap&subset=latin-ext" rel="stylesheet"> 	
+		</ol><br/>
+		<hr>
+		<h3 id="credits"><strong>G) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<ul>
+			<li>Twiiter Bootstrap</li>
+			<li>jQuery</li>
+			<li>modernizr min</li>
+			<li>FontAwesome</li>
+		</ul>
+		
+		<hr>
+
+		<hr>
+		
+		<h3 id="faq"><strong>H) FAQ</strong> - <a href="#toc">top</a></h3>
+		
+		<p>1) This template main color is - #7066ff and #ffab00. if you want to change this color. just replace it with your own color. you can change color from style.css file.</p>
+				
+		<p>2) If you want to change contact mail id, just open <strong>"contact.php"</strong> and you see the mail address. just change it with your own mail address.</p>
+		
+		<hr>
+		<p>2.  For change contact mail. please open contact.php file and add your own mail.</p>
+		<p>Once again, thank you so much for purchasing this template. I'd be glad to help you if you have any questions relating to this template. I'll do my best to assist.</p> 
+		
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+	
+	
+	<script type="text/javascript" src="syntax-highlighter/scripts/shCore.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushXml.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushCss.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushJScript.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushPhp.js"></script> 
+	<script type="text/javascript">
+    SyntaxHighlighter.all()
+	</script>
+</body>
+</html>
